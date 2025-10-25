@@ -1,0 +1,20 @@
+{
+  "domain_id": "surf-tech",
+  "name": "サーフィン×テック",
+  "yt_sources": [
+    {"type":"channel", "id":"UCxxxx"},
+    {"type":"search", "query":"サーフボード 修理 解説"}
+  ],
+  "filters": {
+    "lang": ["ja"],
+    "min_duration_sec": 60,
+    "max_duration_sec": 3600,
+    "exclude_keywords": ["shorts", "切り抜き"]
+  },
+  "posting_accounts": {
+    "x": "@surf_tech_news",
+    "bluesky": "surftech.bsky.social",
+    "mastodon": null
+  },
+  "status": "active"
+}
